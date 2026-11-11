@@ -246,5 +246,21 @@
         "reason": "Exception while decompiling 2b7519591f0: process: timeout "
       }
     ]
+  },
+  "reconstruction_validation": {
+    "complete_client_build": false,
+    "native_components": [
+      "jvm_attachment",
+      "config_validation",
+      "text_table"
+    ],
+    "text_table": "text-table-validation.json: all 60698 present keys and 60698 absent keys; data-only oracle",
+    "config_validation": "dynamic-config.json: prior bounded run, not compliant with strict toolkit isolation gate",
+    "not_recovered": [
+      "lazy text transform",
+      "complete module implementations",
+      "original types and build architecture",
+      "Minecraft runtime compatibility"
+    ]
   }
 }

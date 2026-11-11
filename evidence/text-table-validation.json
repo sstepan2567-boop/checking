@@ -1,0 +1,12 @@
+{
+  "mode": "reconstructed_cpp_against_static_data",
+  "sample_sha256": "0dd86cdc54cbe5b1235454b4751b157098c6f7e9fb57840abd1fef48e4d39a22",
+  "image_sha256": "dec96fd4c691d45349ff50f6f76d60fa8e48f02e8f0dc50b72454adef36b000a",
+  "records": 60698,
+  "successful_lookups": 60698,
+  "missing_key_checks": 60698,
+  "mismatches": 0,
+  "result_sha256": "ae878984d950b82154071f957b2b5e32650ebb259a4cf0d022dea0de95097584",
+  "sample_instructions_executed": false,
+  "limitation": "Predecoded cache only; not a machine-code comparison or lazy-transform verification"
+}
