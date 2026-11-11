@@ -1,0 +1,30 @@
+{
+  "mode": "static_data_and_reconstructed_cpp",
+  "image_sha256": "dec96fd4c691d45349ff50f6f76d60fa8e48f02e8f0dc50b72454adef36b000a",
+  "tables": [
+    {
+      "rva": "0x6a08d0",
+      "records": 81,
+      "columns": 5
+    },
+    {
+      "rva": "0x6a1800",
+      "records": 17,
+      "columns": 1
+    },
+    {
+      "rva": "0x6a1910",
+      "records": 8,
+      "columns": 1
+    },
+    {
+      "rva": "0x6a1990",
+      "records": 4,
+      "columns": 1
+    }
+  ],
+  "native_comparisons": 6804,
+  "mismatches": 0,
+  "sample_instructions_executed": false,
+  "limitation": "Numeric modes only; no original-code execution, game version detection or Minecraft startup"
+}
