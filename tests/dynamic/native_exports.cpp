@@ -1,3 +1,4 @@
+#include "name_mapping.hpp"
 #include "config_validation.hpp"
 #include "text_table.hpp"
 #include <exception>
@@ -26,4 +27,9 @@ std::int64_t recovered_text_offset(void* table, std::uint64_t key) {
     const auto* found = text->find(key);
     return found ? found - text->data() : -1;
 }
+}
+
+extern "C" const char* recovered_mapped_name(const char* input, std::size_t size,
+                                             std::int32_t mode, std::uint32_t name_space) {
+    return systemdlc::recovered::mapped_name(std::string_view(input, size), mode, name_space);
 }
