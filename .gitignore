@@ -1,0 +1,5 @@
+.hoplite/
+.analysis-tools/
+analysis/
+__pycache__/
+*.pyc

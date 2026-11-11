@@ -1,0 +1,24 @@
+{
+  "client": {
+    "wrapper": "systemdlc.offline.dll",
+    "sha256": "0dd86cdc54cbe5b1235454b4751b157098c6f7e9fb57840abd1fef48e4d39a22",
+    "base": "0x2a4416a0000",
+    "size": 87129944,
+    "entry_rva": "0x3e3aa0",
+    "imports": 644,
+    "unwind_ranges": 23448,
+    "payload_file_offset": "0x223000",
+    "image_sha256": "dec96fd4c691d45349ff50f6f76d60fa8e48f02e8f0dc50b72454adef36b000a"
+  },
+  "loader": {
+    "wrapper": "systemloader.offline.dll",
+    "sha256": "8029111e6885b7910aedcb744a14b2e9cac2a57dfe1391693d1023aea7270446",
+    "base": "0x2b751890000",
+    "size": 22732800,
+    "entry_rva": "0x13e0",
+    "imports": 350,
+    "unwind_ranges": 2763,
+    "payload_file_offset": "0x20fe00",
+    "image_sha256": "2a809af2c4d63726e889f9547bae51e38af853d3dfe33d5e36cb9c8ff8117157"
+  }
+}
