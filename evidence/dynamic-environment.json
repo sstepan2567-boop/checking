@@ -1,0 +1,15 @@
+{
+  "date_utc": "2026-11-11",
+  "host_os": "Linux",
+  "kvm_device_present": false,
+  "windows_vm_tools_present": false,
+  "network_namespace_probe": "unshare -n -- true: Operation not permitted",
+  "full_sample_execution": "not performed",
+  "instruction_emulation": "Unicorn 2.1.4 x86-64",
+  "isolation_model": "virtual memory, explicit executable ranges, no OS/service forwarding; fail on unexpected transfer, syscall, interrupt, invalid memory, or budget exhaustion",
+  "limitation": "Instruction emulation is not a Windows VM or a Minecraft runtime; no live injection, renderer, timing or driver verification.",
+  "toolkit_verdict": "STATIC_ONLY",
+  "toolkit_emulation_allowed": false,
+  "current_sample_instruction_execution": "stopped; previous config report retained as historical evidence",
+  "replay_gate": "re-java-native scripts/guard.py --sample with preflight verdict"
+}

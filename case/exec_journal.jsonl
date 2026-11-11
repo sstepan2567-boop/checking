@@ -1,0 +1,1 @@
+{"ts": 1794424791.7733812, "cmd": [".analysis-tools/venv/bin/python", "-m", "tools.emulation.verify_config", ".hoplite/attachments/art_upload_be3c29f0bc624f7d814c2b0cd465c5d2/systemdc.zip", "analysis/build/librecovered_test.so", "--report", "evidence/dynamic-config.json"], "denied": "STATIC_ONLY"}
