@@ -1,0 +1,16 @@
+{
+  "mode": "bounded_cpu_emulation",
+  "sample_sha256": "0dd86cdc54cbe5b1235454b4751b157098c6f7e9fb57840abd1fef48e4d39a22",
+  "function_rvas": [
+    "0x7b40",
+    "0x7b80"
+  ],
+  "fixtures": 289,
+  "comparisons": 578,
+  "mismatches": 0,
+  "instructions": 34101,
+  "modeled_memchr_calls": 537,
+  "result_sha256": "ee359670b81b3671730eef800273880b19e270800191d2536e26064677781a63",
+  "sample_process_started": false,
+  "limitation": "memchr modeled; synthetic inputs; no Windows/JVM/game runtime"
+}
